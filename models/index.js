@@ -11,8 +11,12 @@ Venue.hasMany(Band, {
   foreignKey: 'id',
 });
 
-Venue.hasMany(User, {
-  foreignKey: 'id',
+Venue.belongsTo(User, {
+  foreignKey: 'email',
+});
+
+Band.belongsTo(User, {
+  foreignKey: 'email',
 });
 
 module.exports = { Band, Venue, User };
