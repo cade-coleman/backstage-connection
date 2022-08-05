@@ -71,10 +71,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-<td align="center"><a href="https://github.com/Sidiro23"><img src="https://avatars.githubusercontent.com/u/101485583?v=4](https://avatars.githubusercontent.com/u/106550353?v=4" width="100px;" alt=""/><br /><sub><b>Savvas Sidiropoulos 📆🔌💡 </b></sub></a></td>
+<td align="center"><a href="https://github.com/Sidiro23"><img src="https://avatars.githubusercontent.com/u/106550353?v=4" width="100px;" alt=""/><br /><sub><b>Savvas Sidiropoulos 📆🔌💡 </b></sub></a></td>
 <td align="center"><a href="https://github.com/cade-coleman"><img src="https://avatars.githubusercontent.com/u/105037672?v=4" width="100px;" alt=""/><br /><sub><b>Cade Coleman 🤖🧑‍🏫</b></sub></a></td>
-<td align="center"><a href="https://github.com/rarn92"><img src="https://avatars.githubusercontent.com/u/106767290?v=4)" width="100px;" alt=""/><br /><sub><b>Robert Arn 🎨💡</b></sub></a></td>
-<td align="center"><a href="https://github.com/LeenaJabr"><img src="https://avatars.githubusercontent.com/u/106767290?v=4" width="100px;" alt=""/><br /><sub><b>Leena Jabr 🌍📖</b></sub></a></td>
+<td align="center"><a href="https://github.com/rarn92"><img src="https://avatars.githubusercontent.com/u/106767290?v=4" width="100px;" alt=""/><br /><sub><b>Robert Arn 🎨💡</b></sub></a></td>
+<td align="center"><a href="https://github.com/LeenaJabr"><img src="https://avatars.githubusercontent.com/u/107494937?v=4" width="100px;" alt=""/><br /><sub><b>Leena Jabr 🌍📖</b></sub></a></td>
  </tr>
 </table>
 
@@ -87,4 +87,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 ## [License] 🌍 
  
 
-MIT © [Andrew Edwards](https://github.com/andrew87e)
+MIT © [Cade Coleman](https://github.com/cade-coleman)
