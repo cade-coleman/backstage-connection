@@ -35,13 +35,20 @@ Band.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    password: {
+      type: DataTypes.STRING ,
+      allowNull: false,
+      validate: len[8],
+    },
   },
   {
     sequelize,
     freezeTableName: true,
     underscored: true,
     modelName: 'band',
-  }
+  },
+  
+
 );
 
 module.exports = Band;
