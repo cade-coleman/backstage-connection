@@ -31,6 +31,13 @@ Band.init(
       type: DataTypes.NUMERIC,
       allowNull: false,
     },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+          model: "user",
+          key: "id"
+      }
+    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
