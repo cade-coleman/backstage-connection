@@ -31,6 +31,7 @@ Band.init(
       type: DataTypes.NUMERIC,
       allowNull: false,
     },
+    //added user_id
     user_id: {
       type: DataTypes.INTEGER,
       references: {
