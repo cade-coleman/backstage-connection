@@ -2,7 +2,7 @@
 const Band = require('./Band');
 const Venue = require('./Venue');
 const User = require('./User');
-
+//added cascade and changed foreign key
 Band.hasMany(Venue, {
   foreignKey: 'band_id',
   onDelete: "CASCADE"

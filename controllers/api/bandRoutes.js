@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { User,Band } = require('../../models');
 // const auth = require('../../utils/auth');
 // Routes go here
-
+const { User,Band } = require('../../models');
 
 // CREATE new user
 router.post('/', async (req, res) => {

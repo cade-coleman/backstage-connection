@@ -24,6 +24,7 @@ Venue.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    //added user_id
     user_id: {
       type: DataTypes.INTEGER,
       references: {
