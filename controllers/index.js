@@ -1,11 +1,8 @@
 const router = require('express').Router();
 
-const bandRoutes = require('./api/bandRoutes');
-const loginRoutes = require('./api/loginRoutes');
-const venueRoutes = require('./api/venueRoutes');
+const apiRoutes = require('./api');
 
-router.use('/bands', bandRoutes);
-router.use('/users', loginRoutes);
-router.use('/venues', venueRoutes);
+router.use('/api', apiRoutes);
+
 
 module.exports = router;
