@@ -29,6 +29,38 @@ router.post('/', async (req, res) => {
   }
 });
 
-
+//get all venues
+router.get('/', (req,res)=>{
+  Venue.findAll({
+    attributes: ['id', 'name', 'location', 'link']
+  })
+  .then(dbVenuedata => res.json(dbVenuedata))
+  .catch(err=>{
+  console.log(err);
+  res.status(500).json(err);
+  });
+  });
+  //get one venue
+  router.get('/:id', (req, res) => {
+    
+    Venue.findOne({
+      where: {
+        id: req.params.id
+      },
+      attributes: ['id', 'name', 'location', 'link'],
+      
+    })
+      .then(dbVenuedata => {
+        if (!dbVenuedata) {
+          res.status(404).json({message: 'No Venue found with this id'});
+          return;
+        }
+        res.json(dbVenuedata);
+      })
+      .catch(err => {
+        console.log(err);
+        res.status(500).json(err);
+      });
+  });
 
 module.exports = router;
