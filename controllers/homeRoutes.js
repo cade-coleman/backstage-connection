@@ -6,7 +6,7 @@ const withAuth = require('../utils/auth');
 //get all bands
 router.get('/band', (req, res) => {
   Band.findAll({
-    attributes: ['id', 'name', 'genre', 'link']
+    attributes: ['id', 'name', 'genre', 'bio', 'website', 'phone'],
   })
   .then(dbBanddata => res.json(dbBanddata))
   .catch(err => {
@@ -26,8 +26,7 @@ router.get('/band/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    attributes: ['id', 'name', 'genre', 'link'],
-
+    attributes: ['id', 'name', 'genre', 'bio', 'website', 'phone'],
   })
     .then(dbBanddata => {
       if (!dbBanddata) {
@@ -47,7 +46,7 @@ router.get('/band/:id', (req, res) => {
 //get all venues
 router.get('/venue', (req, res) => {
   Venue.findAll({
-    attributes: ['id', 'name', 'location', 'link']
+    attributes: ['id', 'name', 'location', 'website'],
   })
     .then(dbVenuedata => res.json(dbVenuedata))
     .catch(err => {
@@ -63,7 +62,7 @@ router.get('/venue/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    attributes: ['id', 'name', 'location', 'link'],
+    attributes: ['id', 'name', 'location', 'website'],
 
   })
     .then(dbVenuedata => {
