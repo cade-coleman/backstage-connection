@@ -1,5 +1,5 @@
 const router = require('express').Router();
-// const withAuth = require('../../utils/auth');
+
 
 // Routes go here
 const { User,Venue } = require('../../models');
