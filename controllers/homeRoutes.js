@@ -3,6 +3,16 @@ const { Band, Venue } = require('../models');
 const withAuth = require('../utils/auth');
 
 // Routes go here
+
+
+router.get('/', (req,res) => {
+ res.send('it worked!')
+ 
+// here we will route the homepage to the login page CHEERS!
+
+})
+
+
 //get all bands
 router.get('/band', (req, res) => {
   Band.findAll({
