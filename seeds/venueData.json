@@ -1,0 +1,27 @@
+[
+    {
+    "name": "Rusty Bucket",
+    "location": "Houston TX",
+    "website": "rustybucket.com"
+    },
+    {
+    "name": "Music Shack",
+    "location": "San Antonio TX",
+    "website": "musicshack.com"
+    },
+    {
+    "name": "White Sand Sound",
+    "location": "Galveston TX",
+    "website": "whitesandsound.com"
+    },
+    {
+    "name": "Bob's",
+    "location": "Austin TX",
+    "website": "bobsmusic.com"
+    },
+    {
+    "name": "Coding Bootcamp Venue Hall",
+    "location": "UT Austin",
+    "website": "utbootcampmusic.com"
+    }
+  ]
