@@ -20,7 +20,7 @@ Venue.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    link: {
+      website: {
       type: DataTypes.STRING,
       allowNull: false,
     },
