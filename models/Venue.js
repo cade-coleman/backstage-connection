@@ -28,23 +28,23 @@ Venue.init(
       allowNull: false,
     },
     //added user_id
-    // user_id: {
-    //   type: DataTypes.INTEGER,
-    //   references: {
-    //       model: "user",
-    //       key: "id"
-    //   }
-    // },
-    // email: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false,
-    // },
-    // password: {
-    //   type: DataTypes.STRING ,
-    //   allowNull: false,
-    //   validate: {len:[8],
-    //   }
-    // },
+     user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+          model: "user",
+          key: "id"
+      }
+    },
+     email: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+     password: {
+      type: DataTypes.STRING ,
+       allowNull: false,
+      validate: {len:[8],
+      }
+     },
   },
   {
     sequelize,
