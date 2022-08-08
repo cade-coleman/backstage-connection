@@ -16,7 +16,7 @@ Venue.init(
       allowNull: false,
     },
     
-    bio: {
+    location: {
       type: DataTypes.STRING,
       allowNull: false,
     },
