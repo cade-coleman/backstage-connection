@@ -3,7 +3,7 @@
  ## A Simple Application For Setting Up Bands And Venues 🚇
  Made for Project 2 UT-Austin coding bootcamp
 
-![Backstage-Connection]
+[Backstage-Connection]
 
 ## Demo ⚠️
 
