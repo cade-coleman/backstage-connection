@@ -35,19 +35,19 @@ Insert Second Part of Instructions Here.
 
 Input.
 
-<img src="Img Source" width=650 height=350 alt="IMG SRC">
+<img src="Img Source" width=650 height=350 alt="Insert Name">
 
 Input.
 
-<img src="Img Source" width=650 height=350 alt="Where Are You Coming From">
+<img src="Img Source" width=650 height=350 alt="Insert Name">
 
 Input. 
 
-<img src="Img Source" width=650 height=350 alt="MPG">
+<img src="Img Source" width=650 height=350 alt="Insert Name">
 
 Finally, input. 
 
-<img src="IMG Source" width=650 height=350 alt="Fuel Choice">
+<img src="IMG Source" width=650 height=350 alt="Insert Name">
 
 Finally, input!
 
