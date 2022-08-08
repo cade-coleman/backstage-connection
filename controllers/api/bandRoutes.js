@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { User,Band } = require('../../models');
-// const auth = require('../../utils/auth');
+
 // Routes go here
 
 
