@@ -1,4 +1,19 @@
-<div class="band-card">
-    <div class="band-card-header">
-        {{band_name}}
+{{#each}}
+<div class="band-card card" style="text-align:center;">
+    <container class="row">
+        <div class="col-md-4">
+            <img src="..." class="card-img-top" alt="...">
+        </div>
+        <div class="card-body col-md-4">
+            <header class="band-card-header">{{Band_name}}</header>
+            <ul>
+                <li>{{Band.genre}}</li>
+                <li>{{Band.website}}</li>
+                <li>{{Band.phone}}</li>
+                <li>{{User.Band.email}}</li>
+            </ul>
+        </div>
+        <div class="col-md-4">{{Band.bio}}</div>
+    </container>
 </div>
+{{#/each}}
