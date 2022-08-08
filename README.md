@@ -3,12 +3,16 @@
  ## A Simple Application For Setting Up Bands And Venues 🚇
  Made for Project 2 UT-Austin coding bootcamp
 
-![Backstage-Connection]
+[Backstage-Connection]
 
 ## Demo ⚠️
 
 [Here is a demo of it in action!](Insert Site Here) 
 
+
+## Concept
+
+![Demo-BG](https://user-images.githubusercontent.com/107494937/183463950-7e4943e4-b087-4461-af09-99cd341ec697.gif)
 
 
 ## Instructions 📝
@@ -64,7 +68,7 @@ Desktop Tester
 
 # Team ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
