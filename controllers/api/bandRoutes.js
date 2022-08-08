@@ -29,39 +29,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-//get all bands
-router.get('/', (req,res)=>{
-Band.findAll({
-  attributes: ['id', 'name', 'genre', 'link']
-})
-.then(dbBanddata => res.json(dbBanddata))
-.catch(err=>{
-console.log(err);
-res.status(500).json(err);
-});
-});
-//get one band
-router.get('/:id', (req, res) => {
-  
-  Band.findOne({
-    where: {
-      id: req.params.id
-    },
-    attributes: ['id', 'name', 'genre', 'link'],
-    
-  })
-    .then(dbBanddata => {
-      if (!dbBanddata) {
-        res.status(404).json({message: 'No Band found with this id'});
-        return;
-      }
-      res.json(dbBanddata);
-    })
-    .catch(err => {
-      console.log(err);
-      res.status(500).json(err);
-    });
-});
+
 
 
 module.exports = router;
