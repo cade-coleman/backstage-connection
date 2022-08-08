@@ -15,7 +15,6 @@ Venue.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    
     location: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -24,28 +23,28 @@ Venue.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    //added user_id
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-          model: "user",
-          key: "id"
-      }
-    },
     phone: {
       type: DataTypes.NUMERIC,
       allowNull: false,
     },
-    email: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    password: {
-      type: DataTypes.STRING ,
-      allowNull: false,
-      validate: {len:[8],
-      }
-    },
+    //added user_id
+    // user_id: {
+    //   type: DataTypes.INTEGER,
+    //   references: {
+    //       model: "user",
+    //       key: "id"
+    //   }
+    // },
+    // email: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
+    // password: {
+    //   type: DataTypes.STRING ,
+    //   allowNull: false,
+    //   validate: {len:[8],
+    //   }
+    // },
   },
   {
     sequelize,

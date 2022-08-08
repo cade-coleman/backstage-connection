@@ -2,26 +2,31 @@
     {
     "name": "Rusty Bucket",
     "location": "Houston TX",
-    "website": "rustybucket.com"
+    "website": "rustybucket.com",
+    "phone": "1234567890"
     },
     {
     "name": "Music Shack",
     "location": "San Antonio TX",
-    "website": "musicshack.com"
+    "website": "musicshack.com",
+    "phone": "1234567890"
     },
     {
     "name": "White Sand Sound",
     "location": "Galveston TX",
-    "website": "whitesandsound.com"
+    "website": "whitesandsound.com",
+    "phone": "1234567890"
     },
     {
     "name": "Bob's",
     "location": "Austin TX",
-    "website": "bobsmusic.com"
+    "website": "bobsmusic.com",
+    "phone": "1234567890"
     },
     {
     "name": "Coding Bootcamp Venue Hall",
     "location": "UT Austin",
-    "website": "utbootcampmusic.com"
+    "website": "utbootcampmusic.com",
+    "phone": "1234567890"
     }
   ]
