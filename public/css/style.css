@@ -1,9 +1,6 @@
-*{
-  background-color: black;
-}
+
 
 .body {
-    background-image: url(C:\Users\17133\OneDrive\Desktop\bluewall.jpg);
     background-color: #350024; 
 }
 
@@ -78,6 +75,6 @@
   user-select: none;
 }
 
-.cjl{
-  border: #350024;
+#kardz{
+  background-color: aqua;
 }
