@@ -1,6 +1,5 @@
-<p align="center">
-[Header](https://user-images.githubusercontent.com/107494937/183702795-531e88d0-17dc-43b5-b152-3c5f1157331d.PNG)
-</p>
+![Header](https://user-images.githubusercontent.com/107494937/183703271-3420e958-d326-4cdb-af89-1edf0a5a2fbe.PNG)
+
 
 
 # backstage-connection
