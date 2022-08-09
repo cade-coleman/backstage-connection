@@ -4,9 +4,18 @@ const withAuth = require('../utils/auth');
 
 // Routes go here
 
-
+// Home Routes to Log in
 router.get('/', (req,res) => {
- res.send('it worked!')
+ res.render('login')
+});
+router.get('/login', (req,res) => {
+ res.render('login')
+});
+
+
+// 
+router.get('/homepage', (req,res) => {
+ res.render('homepage')
  
 // here we will route the homepage to the login page CHEERS!
 
@@ -64,15 +73,11 @@ router.get('/band', async (req, res) => {
 router.get('/band/:id', async (req, res) => {
   try {
     const bandData = await Band.findByPk(req.params.id);
+    
+    const band = bandData.get({ plain: true });
 
-    const bands = bandData.get({ plain: true });
-
-    res.render('band', ...bands
-      
-      
-    );
+    res.render('bandByID',  { band });
   } catch (err) {
-    console.log(err);
     res.status(500).json(err);
   }
 });
@@ -103,33 +108,31 @@ router.get('/venue', async (req, res) => {
   }
 });
 //get one venue
-router.get('/venue/:id', (req, res) => {
+router.get('/venue/:id', async (req, res) => {
+  try {
+    const venueData = await Venue.findByPk(req.params.id);
+    
+    const venue = venueData.get({ plain: true });
 
-  Venue.findOne({
-    where: {
-      id: req.params.id
-    },
-    attributes: ['id', 'name', 'location', 'website'],
-
-  })
-    .then(dbVenuedata => {
-      if (!dbVenuedata) {
-        res.status(404).json({ message: 'No Venue found with this id' });
-        return;
-      }
-
-      res.json(dbVenuedata);
-    })
-    .catch(err => {
-      console.log(err);
-      res.status(500).json(err);
-    });
+    res.render('venueByID',  { venue });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
+
+
+// Render signup pages
 router.get('/suBand', (req, res) => {
   res.render('signUpBand');
 
 });
+router.get('/suVenue', (req, res) => {
+  res.render('signUpVenue');
+
+});
+
+//test
 
 
 module.exports = router;

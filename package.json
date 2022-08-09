@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "express-session": "^1.17.3",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.21.3"
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.1.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
   },
   "scripts": {
     "start": "node server.js"
@@ -15,7 +16,6 @@
   "description": "Made for Project 2 UT-Austin coding bootcamp",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cade-coleman/backstage-connection.git"
