@@ -1,6 +1,8 @@
 ![Header](https://user-images.githubusercontent.com/107494937/183703271-3420e958-d326-4cdb-af89-1edf0a5a2fbe.PNG)
 
-
+<p align="center">
+<a href="https://github.com/fatiando/pooch/blob/main/CONTRIBUTING.md"><strong>Contributing</strong></a> •
+</p>
 
 # backstage-connection
 # Project 2 💻
