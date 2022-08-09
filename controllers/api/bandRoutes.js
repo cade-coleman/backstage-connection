@@ -1,3 +1,5 @@
+
+// importing functions and what not
 const router = require('express').Router();
 const { User,Band } = require('../../models');
 

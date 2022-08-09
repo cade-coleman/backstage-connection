@@ -5,6 +5,7 @@ const withAuth = require('../utils/auth');
 // Routes go here
 
 
+// get homepage
 router.get('/', (req,res) => {
  res.send('it worked!')
  
@@ -53,6 +54,21 @@ router.get('/band/:id', (req, res) => {
 
 
 
+
+//                      //    //////////////////        ///      //     ||          ||     //////////////////
+  //                   //     //                        // //    //     ||          ||     //
+    //               //       //                        //  //   //     ||          ||     // 
+      //            //        ///////////////           //   //  //     ||          ||     //////////////////
+        //        //          //                        //   //  //     ||          ||     //  
+          //    //            //                        //    // //     |||         ||     //
+            // /              //////////////////        //     ///     || |||||||||||      //////////////////
+
+
+                //        //
+                  //    //
+                    ////
+                     // 
+
 //get all venues
 router.get('/venue', (req, res) => {
   Venue.findAll({
@@ -65,6 +81,8 @@ router.get('/venue', (req, res) => {
       res.status(500).json(err);
     });
 });
+
+
 //get one venue
 router.get('/venue/:id', (req, res) => {
 
