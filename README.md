@@ -119,8 +119,13 @@ Find out more about how to reach us at
 
 
 👩🏾‍💻 **Contributers to project development:**
+
+<table>
+  <tr>
 <td align="center"><a href="https://github.com/iandarland"><img src="https://avatars.githubusercontent.com/u/79872626?v=4" width="100px;" alt=""/><br /><sub><b>Ian Darland 📆🔌💡 </b></sub></a></td>
 <td align="center"><a href="https://github.com/vTajae?tab=overview&from=2022-07-01&to=2022-07-31"><img src="https://avatars.githubusercontent.com/u/61326464?v=4" width="100px;" alt=""/><br /><sub><b>VTajae 🌍📖</b></sub></a></td>
+    </tr>
+</table>
 
 
 # Team ✨
