@@ -1,19 +1,19 @@
-{{#each}}
+{{#each bands as |band| }}
 <div class="band-card card" style="text-align:center;">
     <container class="row">
         <div class="col-md-4">
-            <img src="..." class="card-img-top" alt="...">
+            {{!-- <img src="..." class="card-img-top" alt="..."> --}}
         </div>
         <div class="card-body col-md-4">
-            <header class="band-card-header">{{Band_name}}</header>
+            <header class="band-card-header">{{band.name}}</header>
             <ul>
-                <li>{{Band.genre}}</li>
-                <li>{{Band.website}}</li>
-                <li>{{Band.phone}}</li>
+                <li>{{band.genre}}</li>
+                <li>{{band.website}}</li>
+                <li>{{band.phone}}</li>
                 <li>{{User.Band.email}}</li>
             </ul>
         </div>
-        <div class="col-md-4">{{Band.bio}}</div>
+        <div class="col-md-4">{{band.bio}}</div>
     </container>
 </div>
-{{#/each}}
+{{/each}}
