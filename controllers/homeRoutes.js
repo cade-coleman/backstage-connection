@@ -6,7 +6,7 @@ const withAuth = require('../utils/auth');
 
 
 router.get('/', (req,res) => {
- res.send('it worked!')
+ res.render('login')
  
 // here we will route the homepage to the login page CHEERS!
 
