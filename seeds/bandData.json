@@ -1,5 +1,7 @@
 [
     {
+    "email":"rusty@gmail.com",
+    "password": "12345",
     "name": "The Thompsons",
     "genre": "Rock",
     "bio": "The Thompsons are a rock group from Paris, France.",
@@ -7,6 +9,8 @@
     "phone": "1234567890"
     },
     {
+    "email":"rusty@gmail.com",
+    "password": "12345",
     "name": "Pop and Pop",
     "genre": "Pop",
     "bio": "Pop and Pop are a pop band from Utah.",
@@ -14,6 +18,8 @@
     "phone": "1234567890"
     },
     {
+    "email":"rusty@gmail.com",
+    "password": "12345",
     "name": "Metal Beards",
     "genre": "Metal",
     "bio": "Lots of metal. Lots of beards.",
@@ -21,6 +27,8 @@
     "phone": "1234567890"
     },
     {
+    "email":"rusty@gmail.com",
+    "password": "12345",
     "name": "Chandler Bing",
     "genre": "Rap",
     "bio": "Chandler Bing is the hottest new rapper from Vancouver.",
@@ -28,6 +36,8 @@
     "phone": "1234567890"
     },
     {
+    "email":"rusty@gmail.com",
+    "password": "12345",
     "name": "Horses Blue",
     "genre": "Country",
     "bio": "Country band from Georgia.",
