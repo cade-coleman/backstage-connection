@@ -111,10 +111,19 @@ router.get('/venue/:id', async (req, res) => {
   }
 });
 
+
+
+// Render signup pages
 router.get('/suBand', (req, res) => {
   res.render('signUpBand');
 
 });
+router.get('/suVenue', (req, res) => {
+  res.render('signUpVenue');
+
+});
+
+
 
 
 module.exports = router;
