@@ -4,9 +4,18 @@ const withAuth = require('../utils/auth');
 
 // Routes go here
 
-
+// Home Routes to Log in
 router.get('/', (req,res) => {
  res.render('login')
+});
+router.get('/login', (req,res) => {
+ res.render('login')
+});
+
+
+// 
+router.get('/homepage', (req,res) => {
+ res.render('homepage')
  
 // here we will route the homepage to the login page CHEERS!
 

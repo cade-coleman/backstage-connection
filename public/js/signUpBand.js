@@ -15,10 +15,11 @@ const signupFormHandler = async (event) => {
         method: 'POST',
         body: JSON.stringify({ email, password, website, name, phone, genre, bio }),
         headers: { 'Content-Type': 'application/json' },
-      });
+      }
+      );
   
       if (response.ok) {
-        document.location.replace('/');
+        document.location.replace('/login');
       } else {
         alert('Failed to sign up.');
       }
