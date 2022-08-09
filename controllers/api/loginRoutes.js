@@ -5,20 +5,20 @@ const { User } = require('../../models');
 // Login
 router.post('/login', async (req, res) => {
     try {
-      const dbUserData = await User.findOne({
+      const userData = await User.findOne({
         where: {
           email: req.body.email,
         },
       });
   
-      if (!dbUserData) {
+      if (!userData) {
         res
           .status(400)
           .json({ message: 'Incorrect email or password. Please try again!' });
         return;
       }
   
-      const validPassword = await dbUserData.checkPassword(req.body.password);
+      const validPassword = await userData.checkPassword(req.body.password);
   
       if (!validPassword) {
         res
@@ -28,19 +28,15 @@ router.post('/login', async (req, res) => {
       }
   
       req.session.save(() => {
+        req.session.user_id = userData.id;
         req.session.loggedIn = true;
-        console.log(
-          '🚀 ~ file: user-routes.js ~ line 57 ~ req.session.save ~ req.session.cookie',
-          req.session.cookie
-        );
+        
   
-        res
-          .status(200)
-          .json({ user: dbUserData, message: 'You are now logged in!' });
+        res.json({ user: userData, message: 'You are now logged in!' });
       });
     } catch (err) {
-      console.log(err);
-      res.status(500).json(err);
+      
+      res.status(400).json(err);
     }
   });
   
