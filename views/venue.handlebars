@@ -1,19 +1,19 @@
-{{#each  venues as |venue| }}
+{{#each venues as |venue| }}
 <div class="venue-card card" style="text-align:center;">
     <container class="row">
         <div class="col-md-4">
             <img src="..." class="card-img-top" alt="...">
         </div>
         <div class="card-body col-md-4">
-            <header class="venue-card-header">{{Venue.name}}</header>
+            <header class="venue-card-header">{{venue.name}}</header>
             <ul>
-                <li>{{Venue.location}}</li>
-                <li>{{Venue.website}}</li>
-                <li>{{Venue.phone}}</li>
+                <li>{{venue.location}}</li>
+                <li>{{venue.website}}</li>
+                <li>{{venue.phone}}</li>
                 <li>{{User.Venue.email}}</li>
             </ul>
         </div>
-        <div class="col-md-4">{{Venue.bio}}</div>
+        <div class="col-md-4">{{venue.bio}}</div>
     </container>
 </div>
 {{/each}}
