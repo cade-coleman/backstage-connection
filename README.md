@@ -1,3 +1,6 @@
+![Header](https://user-images.githubusercontent.com/107494937/183703271-3420e958-d326-4cdb-af89-1edf0a5a2fbe.PNG)
+
+
 # backstage-connection
 # Project 2 💻
  ## A Simple Application For Setting Up Bands And Venues 🚇
@@ -102,12 +105,28 @@ Finally, input!
 <img src="Img Source" width=650 height=350 alt="Final Btn">
 
 
-
 ## Bug Testers 🐛
 
 Mobile Tester <br>
 
 Desktop Tester 
+
+
+## Getting involved
+
+🗨️ **Contact us:**
+Find out more about how to reach us at
+[Backstage Connection Team](https://github.com/cade-coleman/backstage-connection).
+
+
+👩🏾‍💻 **Contributers to project development:**
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/iandarland"><img src="https://avatars.githubusercontent.com/u/79872626?v=4" width="100px;" alt=""/><br /><sub><b>Ian Darland 📆🔌💡 </b></sub></a></td>
+<td align="center"><a href="https://github.com/vTajae?tab=overview&from=2022-07-01&to=2022-07-31"><img src="https://avatars.githubusercontent.com/u/61326464?v=4" width="100px;" alt=""/><br /><sub><b>VTajae 🌍📖</b></sub></a></td>
+    </tr>
+</table>
 
 
 # Team ✨
