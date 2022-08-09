@@ -5,10 +5,54 @@
 
 [Backstage-Connection]
 
+![logo(1)](https://user-images.githubusercontent.com/107494937/183695077-0e913004-6dc5-4f65-b5c1-12d568daff48.jpg)
+
+
 ## Demo ⚠️
 
 [Here is a demo of it in action!](Insert Site Here) 
 
+## The Process
+In orther to accomplish the project, the following steps were done:
+  - Understand clearly the webpage purpose and content
+  - Research sources to understand key concepts
+  - Used Node.js and Express.js to create a RESTFUL API
+  - Used Handlebars.js as the templating engine
+  - Used MySQL and the Sequelize ORM for the database
+  - Used both GET and POST routes for retrieving and adding new data
+  - Deployed using Heroku (with data)
+  - Folder structure that meets the MVC paradigm
+  - Deployed using Heroku (with data)
+  - Protected API keys and sensitive information with environment variables
+  
+\
+Application uses a Node and Express back end and uses both GET and POST routes for retrieving and adding new data.
+```
+Structure and descriptive comments were added
+
+<!-- Handlebar files -->
+
+<!-- Config-Controller-Seeds-Models-Public-Utils-Views-db -->
+
+<!-- Routes -->
+
+```
+![File Structure](https://user-images.githubusercontent.com/107494937/183690355-0c67da52-9ce0-40a8-b84a-fc43a50c0be3.PNG)
+
+/* =========== Directions for Future Development ============= */
+  - Account settings that allow info edits and multiple image/video uploads
+  - Search bar to look up bands, venues
+  - Direct messages between members
+  - Being able to like or up vote bands and venues
+  - Implement machine learning to analyze and suggest venues for bands and vice versa
+  - Add more audio and video functionality to allow for song uploads and playback
+  - Add a gig scheduler that allows venues to book bands directly in the site
+  - Allow individual musicians to look for other band members or stand ins for gigs
+  - Add instrument/gear rental or resale section
+  - Allow musicians and venues to leave ratings and reviews for each other
+  - Add functionality that allows bands to find similar bands to play shows with
+  - Add section for individual event postings that may not be permanent venues
+  - Allow roadies or stage tech personnel to sign up and be booked by bands or venues 
 
 ## Concept
 
