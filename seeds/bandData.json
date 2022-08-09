@@ -1,37 +1,37 @@
 [
     {
-    "name": "Band1",
+    "name": "The Thompsons",
     "genre": "Rock",
-    "bio": "Band bio here",
-    "website": "fakewebsite.com",
+    "bio": "The Thompsons are a rock group from Paris, France.",
+    "website": "thompsonstour.com",
     "phone": "1234567890"
     },
     {
-    "name": "Band2",
+    "name": "Pop and Pop",
     "genre": "Pop",
-    "bio": "Band bio here",
-    "website": "fakewebsite.com",
+    "bio": "Pop and Pop are a pop band from Utah.",
+    "website": "popandpop.com",
     "phone": "1234567890"
     },
     {
-    "name": "Band3",
+    "name": "Metal Beards",
     "genre": "Metal",
-    "bio": "Band bio here",
-    "website": "fakewebsite.com",
+    "bio": "Lots of metal. Lots of beards.",
+    "website": "metalbeardsband.com",
     "phone": "1234567890"
     },
     {
-    "name": "Band4",
+    "name": "Chandler Bing",
     "genre": "Rap",
-    "bio": "Band bio here",
-    "website": "fakewebsite.com",
+    "bio": "Chandler Bing is the hottest new rapper from Vancouver.",
+    "website": "bingbling.com",
     "phone": "1234567890"
     },
     {
-    "name": "Band5",
+    "name": "Horses Blue",
     "genre": "Country",
-    "bio": "Band bio here",
-    "website": "fakewebsite.com",
+    "bio": "Country band from Georgia.",
+    "website": "bluehorses.com",
     "phone": "1234567890"
     }
   ]
