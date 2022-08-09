@@ -16,6 +16,11 @@ router.post('/', async (req, res) => {
       username: req.body.username,
       email: req.body.email,
       password: req.body.password,
+      name: req.body.name,
+      location: req.body.location,
+      website: req.body.website,
+      phone: req.body.phone
+
     })
 
     req.session.save(() => {
