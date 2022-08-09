@@ -6,13 +6,14 @@ const signupFormHandler = async (event) => {
     const website = document.querySelector('#website-signup').value.trim();
     const name = document.querySelector('#name-signup').value.trim();
     const phone = document.querySelector('#phone-signup').value.trim();
-    const genre = document.querySelector('# genre-signup').value.trim();
+    const genre = document.querySelector('#genre-signup').value.trim();
+    const bio = document.querySelector('#bio-signup').value.trim();
     
     
-    if (email && password && website && name && phone && genre) {
+    if (email && password && website && name && phone && genre && bio) {
       const response = await fetch('/api/bands', {
         method: 'POST',
-        body: JSON.stringify({ email, password, website, name, phone, genre }),
+        body: JSON.stringify({ email, password, website, name, phone, genre, bio }),
         headers: { 'Content-Type': 'application/json' },
       });
   
@@ -28,4 +29,3 @@ const signupFormHandler = async (event) => {
   .querySelector('.signup-form')
   .addEventListener('submit', signupFormHandler);
 
-  //testing
