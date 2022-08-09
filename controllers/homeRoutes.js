@@ -126,5 +126,10 @@ router.get('/venue/:id', (req, res) => {
     });
 });
 
+router.get('/suBand', (req, res) => {
+  res.render('signUpBand');
+
+});
+
 
 module.exports = router;

@@ -12,16 +12,16 @@ router.post('/', async (req, res) => {
       email: req.body.email,
       password: req.body.password,
     });
-    const newBand = await Band.create({
-      username: req.body.username,
+    const newBandInfo = await Band.create({
       email: req.body.email,
       password: req.body.password,
+
     })
 
     req.session.save(() => {
       req.session.loggedIn = true;
 
-      res.status(200).json({newUser,newBand});
+      res.status(200).json({newUser,newBandInfo});
     });
   } catch (err) {
     console.log(err);
