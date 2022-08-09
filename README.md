@@ -11,9 +11,9 @@
 
 ## The Process
 In orther to accomplish the project, the following steps were done:
-- Understand clearly the webpage purpose and content
-- Research sources to understand key concepts
-  - Used Node.js and Express.js to create a RESTful API
+  - Understand clearly the webpage purpose and content
+  - Research sources to understand key concepts
+  - Used Node.js and Express.js to create a RESTFUL API
   - Used Handlebars.js as the templating engine
   - Used MySQL and the Sequelize ORM for the database
   - Used both GET and POST routes for retrieving and adding new data
@@ -36,9 +36,7 @@ Structure and descriptive comments were added
 ```
 ![File Structure](https://user-images.githubusercontent.com/107494937/183690355-0c67da52-9ce0-40a8-b84a-fc43a50c0be3.PNG)
 
-/* ================================= 
-Directions for Future Development 
-==================================== */
+/* =========== Directions for Future Development ============= */
   - Account settings that allow info edits and multiple image/video uploads
   - Search bar to look up bands, venues
   - Direct messages between members
