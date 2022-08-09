@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const bandRoutes = require('./bandRoutes');
+const bandRoutes = require('./bandRoutes.js');
 const venueRoutes = require('./venueRoutes');
 const userRoutes = require('./loginRoutes');
 
