@@ -41,40 +41,66 @@ router.get('/band', async (req, res) => {
 
 
 //get one band
-router.get('/band/:id', (req, res) => {
+//router.get('/band/:id', (req, res) => {
 
-  Band.findOne({
-    where: {
-      id: req.params.id
-    },
-    attributes: ['id', 'name', 'genre', 'bio', 'website', 'phone'],
-  })
-    .then(dbBanddata => {
-      if (!dbBanddata) {
-        res.status(404).json({ message: 'No Band found with this id' });
-        return;
-      }
-      res.json(dbBanddata);
-    })
-    .catch(err => {
-      console.log(err);
-      res.status(500).json(err);
-    });
+  //Band.findOne({
+    //where: {
+      //id: req.params.id
+    //},
+    //attributes: ['id', 'name', 'genre', 'bio', 'website', 'phone'],
+ // })
+   // .then(dbBanddata => {
+      //if (!dbBanddata) {
+       // res.status(404).json({ message: 'No Band found with this id' });
+        //return;
+      //}
+      //res.json(dbBanddata);
+    //})
+    //.catch(err => {
+      //console.log(err);
+      //res.status(500).json(err);
+    //});
+//});
+router.get('/band/:id', async (req, res) => {
+  try {
+    const bandData = await Band.findByPk(req.params.id);
+
+    const bands = bandData.get({ plain: true });
+
+    res.render('band', ...bands
+      
+      
+    );
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
 });
 
 
 
 //get all venues
-router.get('/venue', (req, res) => {
-  Venue.findAll({
-    attributes: ['id', 'name', 'location', 'website'],
-  })
-    .then(dbVenuedata => res.json(dbVenuedata))
-    .catch(err => {
-      console.log(err);
+//router.get('/venue', (req, res) => {
+  //Venue.findAll({
+    //attributes: ['id', 'name', 'location', 'website'],
+  //})
+    //.then(dbVenuedata => res.json(dbVenuedata))
+    //.catch(err => {
+      //console.log(err);
 
-      res.status(500).json(err);
-    });
+      //res.status(500).json(err);
+    //});
+//});
+router.get('/venue', async (req, res) => {
+  try {
+    const venueData = await Venue.findAll({});
+
+    const venues = venueData.map((venue) => venue.get({ plain: true }));
+
+    res.render('venue', {venues});
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 //get one venue
 router.get('/venue/:id', (req, res) => {
