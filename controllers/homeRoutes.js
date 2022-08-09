@@ -10,22 +10,33 @@ router.get('/', (req,res) => {
  
 // here we will route the homepage to the login page CHEERS!
 
-})
+});
 
 
-//get all bands
-router.get('/band', (req, res) => {
-  Band.findAll({
-    attributes: ['id', 'name', 'genre', 'bio', 'website', 'phone'],
-  })
-  .then(dbBanddata => res.json(dbBanddata))
-  .catch(err => {
-    console.log(err);
+// get all bands
+// router.get('/band', (req, res) => {
+//   Band.findAll({
+//     attributes: ['id', 'name', 'genre', 'bio', 'website', 'phone'],
+//   })
+//   .then(dbBanddata => res.json(dbBanddata))
+//   .catch(err => {
+//     console.log(err);
+//     res.status(500).json(err);
+//   });
+  
+// });
+
+// 8/8/2022 @ 21:53 - modified get route that appends seeded data to localhost:3004/band
+router.get('/band', async (req, res) => {
+  try {
+    const bandData = await Band.findAll({});
+
+    const bands = bandData.map((band) => band.get({ plain: true }));
+
+    res.render('band', {bands});
+  } catch (err) {
     res.status(500).json(err);
-  });
-  
-
-  
+  }
 });
 
 
