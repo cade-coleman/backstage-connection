@@ -106,34 +106,17 @@ Insert Second Part of Instructions Here.
 
 ![Step 2 Venue](https://user-images.githubusercontent.com/107494937/183947343-83674010-bf4b-42f3-8088-af687adad106.PNG)
 
-<br>
-<br>
-<br>
-<br>
-</details>
-
+<img src="Img Source" width=650 height=350 alt="Sign Up as a Venue">
 
 ![Step 3 Band](https://user-images.githubusercontent.com/107494937/183947384-30cccec3-5c6b-4ddd-8fd8-5e8ee0e611d8.PNG)
 
 
-<img src="Img Source" width=650 height=350 alt="Insert Name">
+<img src="Img Source" width=650 height=350 alt="Sign Up as a Band">
 
 Input.
 
 ![Step 4 Home](https://user-images.githubusercontent.com/107494937/183947487-1fc86834-638e-494d-b4c6-65950a54229d.PNG)
 
-
-Input. 
-
-<img src="Img Source" width=650 height=350 alt="Insert Name">
-
-Finally, input. 
-
-<img src="IMG Source" width=650 height=350 alt="Insert Name">
-
-Finally, input!
-
-<img src="Img Source" width=650 height=350 alt="Final Btn">
 
 
 ## Bug Testers 🐛
