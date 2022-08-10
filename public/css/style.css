@@ -79,6 +79,17 @@ button:hover {
   margin: 25px;
 }
 
+.cardcol{
+  background-color: rgba(66, 46, 46, 0.658);
+  color: aliceblue;
+}
+
+.Mid{
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+
 .wholeDisplay#blur.active {
   filter: blur(20px);
   pointer-events: none;

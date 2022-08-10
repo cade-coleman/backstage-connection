@@ -1,10 +1,10 @@
 {{#each venues as |venue| }}
-<div class="card mb-3" style="max-width: 750px; margin-left: auto; margin-right: auto; margin-bottom: 1rem">
+<div class="card mb-3 cardcol" style="max-width: 750px; margin-left: auto; margin-right: auto; margin-bottom: 1rem">
     <div class="row no-gutters">
         <div class="col-md-4">
             <img src="/assets/image.jpeg" alt="...">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 Mid">
             <header class="venue-card-header">{{venue.name}}</header>
             <ul>
                 <li>{{venue.location}}</li>
@@ -13,7 +13,7 @@
                 <li>{{venue.email}}</li>
             </ul>
         </div>
-        <div class="col-md-4">{{venue.bio}}</div>
+        <div class="col-md-4 Mid">{{venue.bio}}</div>
         </div>
     
 </div>
