@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
       website: req.body.website,
       bio: req.body.bio,
     })
-
+    res.render('homepage')
   
   } catch (err) {
     console.log(err);
