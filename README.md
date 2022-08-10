@@ -35,6 +35,10 @@
 
 https://user-images.githubusercontent.com/107494937/183933875-b12720da-ea05-4fe0-95cd-e3d629df979d.mp4
 
+[GitHub:](https://github.com/cade-coleman/backstage-connection) https://github.com/cade-coleman/backstage-connection
+
+[GitHub Deployed Link:](https://backstage-connection.herokuapp.com/) https://backstage-connection.herokuapp.com/
+
 
 
 ## The Process
@@ -91,45 +95,29 @@ Structure and descriptive comments were added
 
 ## Instructions 📝
 
-Insert Instructions Here. 
+Enter the Website. 
 
-Insert GIF here.
+![Step 1](https://user-images.githubusercontent.com/107494937/183947234-ae8ff87c-4da4-4caa-b2d9-c9911ad1f9fe.PNG)
 
 
-Insert Second Part of Instructions Here. 
-<details>
-    <summary>Need to Fill Out</summary>
-    <br>
-    Steps.  
-    <br>
-        <img src="Enter Image Source for No Input Submit" width=450 height=350 alt="Happens when no valid entry"><br>
-<br>
-<br>
-<br>
-<br>
-</details>
 
-<img src="Img Source">
 
-Input.
+Select the Appropriate Sign Up (Band or Venue).
 
-<img src="Img Source" width=650 height=350 alt="Insert Name">
 
-Input.
+![Step 2 Venue](https://user-images.githubusercontent.com/107494937/183947343-83674010-bf4b-42f3-8088-af687adad106.PNG)
 
-<img src="Img Source" width=650 height=350 alt="Insert Name">
+Sign Up as a Venue.
 
-Input. 
+![Step 3 Band](https://user-images.githubusercontent.com/107494937/183947384-30cccec3-5c6b-4ddd-8fd8-5e8ee0e611d8.PNG)
 
-<img src="Img Source" width=650 height=350 alt="Insert Name">
+Sign Up as a Band.
 
-Finally, input. 
 
-<img src="IMG Source" width=650 height=350 alt="Insert Name">
+![Step 4 Home](https://user-images.githubusercontent.com/107494937/183947487-1fc86834-638e-494d-b4c6-65950a54229d.PNG)
 
-Finally, input!
+Log Out or Home Site.
 
-<img src="Img Source" width=650 height=350 alt="Final Btn">
 
 
 ## Bug Testers 🐛
