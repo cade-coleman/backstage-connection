@@ -16,8 +16,6 @@ router.get('/login', (req,res) => {
 // 
 router.get('/homepage', (req,res) => {
  res.render('homepage')
- 
-// here we will route the homepage to the login page CHEERS!
 
 });
 

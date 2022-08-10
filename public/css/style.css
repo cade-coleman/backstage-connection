@@ -1,10 +1,12 @@
+
+
 body {
   background-image: url('https://media.istockphoto.com/photos/3d-rendering-brick-wall-illuminated-by-neon-pink-light-from-abstract-picture-id1145590967?k=20&m=1145590967&s=170667a&w=0&h=PtZtfElIsCiH8pyi8No6VKTpDHCOTTPIuZ-e9N2qiRk=');
   background-repeat: no-repeat;
-   background-size: cover; 
-  
+
+  background-size: cover;
   color: rgb(129, 117, 117);
-  
+  margin: 15px;
 }
 
 .jumbotron {
@@ -21,7 +23,6 @@ body {
   margin: 0;
   border: 0;
   width: 100vw;
-
   background-color: #350024;
   background-position: 50px
 }
@@ -30,6 +31,7 @@ body {
   position: relative;
   bottom: 13px;
 }
+
 
 .navbar-text {
   color: white;
@@ -105,9 +107,5 @@ button:hover {
 }
 
 .addShad:hover{
-  box-shadow: rgba(255, 255, 255, 0.671) 0px 0px 10px 10px;
-}
-
-.hide{
-  display: none;
+  box-shadow: black 0px 0px 10px 10px;
 }
