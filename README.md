@@ -98,31 +98,30 @@ Structure and descriptive comments were added
 
 Insert Instructions Here. 
 
-Insert GIF here.
+![Step 1](https://user-images.githubusercontent.com/107494937/183947234-ae8ff87c-4da4-4caa-b2d9-c9911ad1f9fe.PNG)
+
 
 
 Insert Second Part of Instructions Here. 
-<details>
-    <summary>Need to Fill Out</summary>
-    <br>
-    Steps.  
-    <br>
-        <img src="Enter Image Source for No Input Submit" width=450 height=350 alt="Happens when no valid entry"><br>
+
+![Step 2 Venue](https://user-images.githubusercontent.com/107494937/183947343-83674010-bf4b-42f3-8088-af687adad106.PNG)
+
 <br>
 <br>
 <br>
 <br>
 </details>
 
-<img src="Img Source">
+
+![Step 3 Band](https://user-images.githubusercontent.com/107494937/183947384-30cccec3-5c6b-4ddd-8fd8-5e8ee0e611d8.PNG)
+
+
+<img src="Img Source" width=650 height=350 alt="Insert Name">
 
 Input.
 
-<img src="Img Source" width=650 height=350 alt="Insert Name">
+![Step 4 Home](https://user-images.githubusercontent.com/107494937/183947487-1fc86834-638e-494d-b4c6-65950a54229d.PNG)
 
-Input.
-
-<img src="Img Source" width=650 height=350 alt="Insert Name">
 
 Input. 
 
