@@ -7,6 +7,7 @@
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
+    "puppeteer": "^16.1.0",
     "sequelize": "^6.3.5"
   },
   "scripts": {
