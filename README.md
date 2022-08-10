@@ -28,6 +28,11 @@ In orther to accomplish the project, the following steps were done:
   - Deployed using Heroku (with data)
   - Protected API keys and sensitive information with environment variables
   
+  ## Technologies Used
+  
+  ![SS](https://user-images.githubusercontent.com/107494937/183795136-562ce13a-54b4-4b13-b162-817a765ea0bf.PNG)
+
+  
 \
 Application uses a Node and Express back end and uses both GET and POST routes for retrieving and adding new data.
 ```
