@@ -16,7 +16,7 @@
   <header>
 
     <nav class="navbar navbar-expand-lg">
-      <h1 class="nav-brand">Backstage Connection</h1>
+      <h1 class="nav-brande">Backstage Connection</h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,12 @@
       <div class="collapse navbar-collapse justify" id="navbarNav">
         <ul class="navbar-nav">
          <a  href="/suBand"><button class="btn-no-style">Band</button></a> 
-         <a  href="/suVenue"><button id="logout" class="btn-no-style">Venue</button></a> 
-         <a  href="/homepage"><button id="logout" class="btn-no-style">Home</button></a> 
-         
-          
+         <a  href="/suVenue"><button class="btn-no-style">Venue</button></a> 
+         <a  href="/homepage"><button class="btn-no-style">Home</button></a> 
+         {{!-- {{#if loggedin}} --}}
+         <a  href="/login"><button class="btn-no-style">Logout</button></a> 
+          <script src="../../public/js/logout.js"></script>
+          {{!-- {{/if}} --}}
         </ul>
       </div>
     </nav>
