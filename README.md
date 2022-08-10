@@ -35,9 +35,9 @@
 
 https://user-images.githubusercontent.com/107494937/183933875-b12720da-ea05-4fe0-95cd-e3d629df979d.mp4
 
-[GitHub:](https://github.com/cade-coleman/backstage-connection).
+[GitHub:](https://github.com/cade-coleman/backstage-connection) https://github.com/cade-coleman/backstage-connection
 
-[GitHub Deployed Link:](https://backstage-connection.herokuapp.com/)
+[GitHub Deployed Link:](https://backstage-connection.herokuapp.com/) https://backstage-connection.herokuapp.com/
 
 
 
@@ -95,26 +95,28 @@ Structure and descriptive comments were added
 
 ## Instructions 📝
 
-Insert Instructions Here. 
+Enter the Website. 
 
 ![Step 1](https://user-images.githubusercontent.com/107494937/183947234-ae8ff87c-4da4-4caa-b2d9-c9911ad1f9fe.PNG)
 
 
 
-Insert Second Part of Instructions Here. 
+
+Select the Appropriate Sign Up (Band or Venue).
+
 
 ![Step 2 Venue](https://user-images.githubusercontent.com/107494937/183947343-83674010-bf4b-42f3-8088-af687adad106.PNG)
 
-<img src="Img Source" width=650 height=350 alt="Sign Up as a Venue">
+Sign Up as a Venue.
 
 ![Step 3 Band](https://user-images.githubusercontent.com/107494937/183947384-30cccec3-5c6b-4ddd-8fd8-5e8ee0e611d8.PNG)
 
+Sign Up as a Band.
 
-<img src="Img Source" width=650 height=350 alt="Sign Up as a Band">
-
-Input.
 
 ![Step 4 Home](https://user-images.githubusercontent.com/107494937/183947487-1fc86834-638e-494d-b4c6-65950a54229d.PNG)
+
+Log Out or Home Site.
 
 
 
