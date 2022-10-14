@@ -31,8 +31,8 @@ header {
 }
 
 .navbar-brand {
-  position: relative;
-  bottom: 13px;
+  position: fixed;
+  /* bottom: 13px; */
 }
 
 
@@ -42,12 +42,11 @@ header {
 
 button {
   margin: 0.5em;
-  border-radius: 50%;
   border: none;
   height: 40px;
   width: 75px;
   outline: none;
-  background: #9e9e9e3b;
+  background: hsla(0, 11%, 19%, 0.858);
   color: white;
   cursor: pointer;
   transition: 0.2s ease-in-out;
