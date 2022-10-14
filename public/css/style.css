@@ -15,6 +15,10 @@ body {
   background-color: #350024;
 }
 
+header {
+  background-color: white;
+}
+
 .backgroundJumbotron {
   background-image: url('./Images/Band-Background.jpg');
   background-size: cover;
