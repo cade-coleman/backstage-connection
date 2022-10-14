@@ -132,10 +132,9 @@ width: 200%;
 height: 400px;
 opacity: .5;
 z-index: 2;
+margin-right: -100%;
 }
 
 #landingBio {
-  margin-left: 20px;
-  margin-right: 20px;
   z-index: 3;
 }
