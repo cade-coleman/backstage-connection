@@ -128,8 +128,9 @@ button:hover {
 }
 
 #concertGif {
-width: auto;
-height: 500px
+width: 2000px;
+opacity: .3;
+
 }
 
 #landingBio {
