@@ -4,8 +4,12 @@ body {
   background-color: rgba(17, 152, 255, 0.881);
    background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(129, 117, 117);
-  
+  color: rgb(5, 5, 5);
+
+}
+
+.band-card-header{
+  background-color: transparent;
 }
 
 .jumbotron {
