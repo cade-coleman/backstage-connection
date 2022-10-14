@@ -131,9 +131,11 @@ button:hover {
 width: 1000px;
 opacity: .5;
 margin-right: -75%;
+z-index: 2;
 }
 
 #landingBio {
   margin-left: 20px;
   margin-right: 20px;
+  z-index: 3;
 }
