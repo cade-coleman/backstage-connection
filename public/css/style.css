@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: rgba(205, 36, 205, 0.831);
+  background-color: rgba(136, 46, 136, 0.809);
    background-repeat: no-repeat;
   background-size: cover;
   color: rgb(129, 117, 117);
@@ -118,4 +118,9 @@ button:hover {
 
 .addShad:hover{
   box-shadow: black 0px 0px 10px 10px;
+}
+
+#concertGif {
+width: auto;
+height: 500px
 }

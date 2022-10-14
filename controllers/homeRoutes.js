@@ -6,8 +6,10 @@ const withAuth = require('../utils/auth');
 
 // Home Routes to Log in
 router.get('/', (req,res) => {
- res.render('login')
+ res.render('landingPage')
 });
+
+
 router.get('/login', (req,res) => {
  res.render('login')
 });
@@ -20,18 +22,7 @@ router.get('/homepage', (req,res) => {
 });
 
 
-// get all bands
-// router.get('/band', (req, res) => {
-//   Band.findAll({
-//     attributes: ['id', 'name', 'genre', 'bio', 'website', 'phone'],
-//   })
-//   .then(dbBanddata => res.json(dbBanddata))
-//   .catch(err => {
-//     console.log(err);
-//     res.status(500).json(err);
-//   });
-  
-// });
+
 
 // 8/8/2022 @ 21:53 - modified get route that appends seeded data to localhost:3004/band
 router.get('/band', async (req, res) => {
@@ -47,27 +38,7 @@ router.get('/band', async (req, res) => {
 });
 
 
-//get one band
-//router.get('/band/:id', (req, res) => {
 
-  //Band.findOne({
-    //where: {
-      //id: req.params.id
-    //},
-    //attributes: ['id', 'name', 'genre', 'bio', 'website', 'phone'],
- // })
-   // .then(dbBanddata => {
-      //if (!dbBanddata) {
-       // res.status(404).json({ message: 'No Band found with this id' });
-        //return;
-      //}
-      //res.json(dbBanddata);
-    //})
-    //.catch(err => {
-      //console.log(err);
-      //res.status(500).json(err);
-    //});
-//});
 router.get('/band/:id', async (req, res) => {
   try {
     const bandData = await Band.findByPk(req.params.id);
