@@ -128,9 +128,9 @@ button:hover {
 }
 
 #concertGif {
-width: 2000px;
-opacity: .3;
-
+width: 1000px;
+opacity: .5;
+margin-right: -75%;
 }
 
 #landingBio {
