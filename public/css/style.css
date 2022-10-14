@@ -4,7 +4,7 @@ body {
   background-color: rgba(17, 152, 255, 0.881);
    background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 
 }
 
@@ -130,4 +130,9 @@ button:hover {
 #concertGif {
 width: auto;
 height: 500px
+}
+
+#landingBio {
+  margin-left: 20px;
+  margin-right: 20px;
 }
