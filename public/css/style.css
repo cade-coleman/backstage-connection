@@ -128,7 +128,8 @@ button:hover {
 }
 
 #concertGif {
-width: 1000px;
+width: 100%;
+height: auto;
 opacity: .5;
 margin-right: -75%;
 z-index: 2;
