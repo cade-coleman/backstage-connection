@@ -128,7 +128,7 @@ button:hover {
 }
 
 #concertGif {
-width: 200%;
+width: 250%;
 height: 400px;
 opacity: .5;
 z-index: 2;
@@ -136,5 +136,7 @@ margin-right: -100%;
 }
 
 #landingBio {
+  width: 60%;
+  height: auto;
   z-index: 3;
 }
