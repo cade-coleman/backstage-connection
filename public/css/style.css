@@ -139,6 +139,7 @@ margin-right: -100%;
   width: 150%;
   height: auto;
   z-index: 3;
-  background-color: #f9000093;
-  justify-content: flex-start;
+  margin-top: 200px;
+  margin-right: 250px;
+  justify-content: flex-end;
 }
