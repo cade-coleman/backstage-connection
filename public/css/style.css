@@ -148,6 +148,6 @@ background-color: rgba(17, 152, 255, 0.881);
   text-shadow: 3px 3px 3px black;
 }
 
-#landingBio :hover {
+#landingBio:hover {
   text-shadow: 3px 3px 3px rgba(17, 152, 255, 0.881);
 }
