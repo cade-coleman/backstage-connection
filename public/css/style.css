@@ -147,3 +147,7 @@ background-color: rgba(17, 152, 255, 0.881);
   justify-content: flex-end;
   text-shadow: 3px 3px 3px black;
 }
+
+#landingBio :hover {
+  text-shadow: rgba(17, 152, 255, 0.881);
+}
