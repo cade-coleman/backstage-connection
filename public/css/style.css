@@ -5,8 +5,6 @@ body {
    background-repeat: no-repeat;
   background-size: cover;
   color: rgb(0, 0, 0);
-  border-bottom: rgba(17, 152, 255, 0.881);
-  border-bottom: 3px;
 
 }
 
@@ -23,6 +21,8 @@ body {
 
 header {
   background-color: white;
+  border-bottom: rgba(17, 152, 255, 0.881);
+  border-bottom: 3px;
 }
 
 .backgroundJumbotron {
