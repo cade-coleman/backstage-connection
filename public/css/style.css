@@ -19,10 +19,10 @@ body {
   background-color: #002b35;
 }
 
-header {
+#header {
   background-color: white;
-  border-bottom: rgba(17, 152, 255, 0.881);
-  border-bottom: 3px;
+  border-bottom:3px solid rgba(17, 152, 255, 0.881);
+  
 }
 
 .backgroundJumbotron {
