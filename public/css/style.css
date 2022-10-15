@@ -45,6 +45,8 @@ header {
 }
 
 button {
+  margin: 5px;
+  border-radius: 5%;
   font-size: 28px;
   border: 1px;
   outline: none;
@@ -140,5 +142,5 @@ margin-right: -100%;
   margin-top: 15%;
   margin-right: 25%;
   justify-content: flex-end;
-
+  text-shadow: 3px 3px 3px black;
 }
