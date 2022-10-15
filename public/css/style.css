@@ -132,7 +132,7 @@ button:hover {
 #concertGif {
 width: 250%;
 height: 430px;
-opacity: .7;
+/* opacity: .7; */
 z-index: 2;
 margin-right: -100%;
 background-color: rgba(17, 152, 255, 0.881);
