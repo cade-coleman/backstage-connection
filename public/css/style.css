@@ -45,10 +45,8 @@ header {
 }
 
 button {
-  margin: 0.5em;
-  border: none;
-  height: 40px;
-  width: 75px;
+  font-size: 28px;
+  border: 1px;
   outline: none;
   background: hsla(0, 11%, 19%, 0.858);
   color: white;
