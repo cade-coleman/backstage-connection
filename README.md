@@ -1,4 +1,4 @@
-# Currently under construction!!!
+# Currently under construction! Front end interface has been worked on, next is setting up the authorization and back end. After that we will work on cleaning up variable names and file organization.
 
 ![Header](https://user-images.githubusercontent.com/107494937/183703271-3420e958-d326-4cdb-af89-1edf0a5a2fbe.PNG)
 
